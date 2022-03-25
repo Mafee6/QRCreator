@@ -23,7 +23,7 @@ public class QRCreator{
         try {
             return ImageIO.read(new URL(endpoint + parameters));
         } catch (Exception ex){
-            JOptionPane.showMessageDialog(null, "Error", "Error while generating the QR Code!", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Error while generating the QR Code!", "Error", JOptionPane.ERROR_MESSAGE);
             System.exit(1);
             return null;
         }
@@ -60,7 +60,7 @@ public class QRCreator{
         window.setLayout(null);
 
         JLabel help = new JLabel();
-        help.setText("<html><b>Mafee QR Code Creator </b> Enter QR Data under QR Code & press Enter to make a new one! Right click on the QR Code to open it in your browser! <b>Api: https://goqr.me</b></html>");
+        help.setText("<html><b>Mafee QR Code Creator </b> Enter QR Data under QR Code & press Enter to make a new one! Left click on the QR Code to open it in your browser! <b>Api: https://goqr.me</b></html>");
         help.setForeground(Color.white);
         help.setBounds(6, 6, 680, 50);
         help.setFont(new Font("sans-serif", Font.PLAIN, 15));
@@ -71,7 +71,7 @@ public class QRCreator{
         imglbl.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                if(e.getButton() == MouseEvent.BUTTON2){
+                if(e.getButton() == MouseEvent.BUTTON1){
                     try {
                         System.out.println("[!] Opening QR Code in Your Browser");
                         Desktop.getDesktop().browse(new URI(qrurl));
