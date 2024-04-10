@@ -60,7 +60,7 @@ public class QRCreator{
         window.setLayout(null);
 
         JLabel help = new JLabel();
-        help.setText("<html><b>Mafee QR Code Creator </b> Enter QR Data under QR Code & press Enter to make a new one! Left click on the QR Code to open it in your browser! <b>Api: https://goqr.me</b></html>");
+        help.setText("<html><b>Mafee QR Code Creator </b> Enter QR Data under QR Code & press Enter to make a new one! Left click on the QR Code to open it in your browser! <b>API: https://goqr.me</b></html>");
         help.setForeground(Color.white);
         help.setBounds(6, 6, 680, 50);
         help.setFont(new Font("sans-serif", Font.PLAIN, 15));
