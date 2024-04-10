@@ -7,3 +7,5 @@ Written using Java, open-source.
 ### Screenshot of the application
 
 ![screenshot-qrcreator](https://github.com/Mafee6/QRCreator/assets/64575804/ee014e6c-4a49-4638-9fe3-4c6f0dbe0492)
+
+Powered by API: https://goqr.me
