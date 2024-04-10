@@ -1,5 +1,6 @@
 # QRCreator
 Generate QR Codes on-the-go using Mafee QRCreator.
+Written using Java, open-source.
 
 <img src="qrcode-icon.png" style="width: 64px; height: 64px;" />
 
