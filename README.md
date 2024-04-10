@@ -1,2 +1,3 @@
 # QRCreator
-Mafee QR Code Generator
+Generate QR Codes on-the-go using Mafee QRCreator.
+
