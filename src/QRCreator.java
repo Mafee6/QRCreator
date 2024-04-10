@@ -108,7 +108,7 @@ public class QRCreator{
         window.add(data);
         window.add(imglbl);
         window.getContentPane().setBackground(new Color(34, 34, 34));
-        window.setIconImage(new ImageIcon("qr.png").getImage());
+        window.setIconImage(new ImageIcon("qrcode-icon.png").getImage());
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.setSize(720, 480);
         window.setMinimumSize(new Dimension(720, 480));
